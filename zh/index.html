@@ -145,6 +145,10 @@
     /* 让语音识别图标与其他功能图标保持一致。 */
     .icon.mic-icon{border-radius:14px;background:#eaf0ff;color:var(--blue)}
     .icon.mic-icon svg{width:21px;height:21px}
+    #features .card{display:grid;grid-template-columns:46px minmax(0,1fr);grid-template-rows:46px auto;column-gap:12px;align-items:center}
+    #features .card .icon{grid-column:1;grid-row:1}
+    #features .card h3{grid-column:2;grid-row:1;margin:0;align-self:center}
+    #features .card p{grid-column:1 / -1;grid-row:2;margin-top:8px}
   </style>
 </head>
 <body>
